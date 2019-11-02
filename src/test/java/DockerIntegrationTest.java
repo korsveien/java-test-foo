@@ -8,7 +8,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class DockerIntegrationTest {
 
     @ClassRule
-    public static OracleContainer oracle = new OracleContainer("wnameless/oracle-xe-11g-r2");
+    public static OracleContainer oracle = new OracleContainer("quillbuilduser/oracle-18-xe");
 
     private static Connection conn;
 
